@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    outline: red dashed 1px;
+    height: 100vh;
+}
+
+.headerContainer{
+    outline: red dashed 1px;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 1rem;
+    background: url(../img/headerBG.png) center/cover no-repeat;
+}
+
+.logoContainer{
+    outline: white dashed 1px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 7rem;
+}
+
+.bodyContainer{
+    outline: red dashed 1px;
+    height: 92.9vh;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    background: url(../img/BG.png) center/cover no-repeat;
+}
+
+.subBodyContainer{
+    outline: red dashed 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.textContainer{
+    outline: red dashed 1px;
+    width: 100%;
+    text-align: justify;
+    font-size: 3.1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer1{
+    outline: red dashed 1px;
+    width: 100%;
+    text-align: justify;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    width: 95%;
+}
+
+.imageContainer{
+    outline: red dashed 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
