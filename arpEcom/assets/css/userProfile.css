@@ -1,0 +1,165 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  outline: red dashed 1px;
+  height: 100vh;
+  background: url(../img/bg3.png) center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1{
+  outline: red dashed 1px;
+  height: 100vh;
+  width: 100%;
+  background: url(../img/bg3.png) center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+
+.subContainer, .subContainer1{
+  outline: red dashed 1px;
+  width: 90%;
+  border-radius: 1rem;
+  background-color: snow;
+}
+
+.subContainer1{
+  position: absolute;
+  top: ;
+}
+
+.uploadContainer{
+  outline: red dashed 1px;
+}
+
+.imageContainer{
+  outline: red dashed 1px;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.subImageContainer{
+  outline: red dashed 1px;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 0.5rem;
+  border: solid rgb(230,170,1) 1px;
+}
+
+.profilePic{
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.uploadButtonContainer{
+  outline: red dashed 1px;
+  height: 3rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploadButton{
+  height: 2rem;
+  width: 6rem;
+  border-radius: 0.5rem;
+  background-color: rgb(230,170,1);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.uploadButton:hover{
+  background-color: transparent;
+  border: solid rgb(230,170,1) 1px;
+  color: rgb(230,170,1);
+}
+
+.uploadButton:active{
+  transform: scale(0.9);
+}
+
+.infoContainer{
+  outline: red dashed 1px;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.subInfoContainer{
+  outline: red dashed 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.labelContainer{
+  outline: red dashed 1px;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.label{
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.inputContainer{
+  outline: red dashed 1px;
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subInputContainer{
+  background-color: rgb(230,170,1);
+  height: 100%;
+  width: 90%;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: snow;
+}
+
+.buttonContainer{
+  outline: red dashed 1px;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+
+
+/*tablet*/
+@media only screen and (min-width: 601px){
+  .subContainer, .subContainer1{
+    width: 30rem;
+  }
+
+  .container1{
+    padding: 2rem 0;
+  }
+}

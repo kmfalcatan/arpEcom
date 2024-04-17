@@ -1,0 +1,101 @@
+.bodyContainer3{
+  outline: red dashed 1px;
+  height: 92.5vh;
+  background-color: rgb(255,237,0);
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.subBodyContainer3{
+  outline: red dashed 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imageContainer2{
+  outline: red  dashed 1px;
+  width: 100%;
+}
+
+.subImageContainer2{
+  outline: red dashed 1px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.textContainer1{
+  outline: red dashed 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.mapContainer{
+  outline: red dashed 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subMapContainer{
+  outline: red dashed 1px;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 0 10px rgb(230,170,1);
+}
+
+.image{
+  height: 100%;
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .bodyContainer3{
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    grid-template-rows: none;
+  }
+
+  .image2{
+    height: 10rem;
+  }
+
+  .textContainer1{
+    font-size: 2rem;
+  }
+}
+
+/*pc*/
+@media only screen and (min-width: 1441px){
+  .bodyContainer3{
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    grid-template-rows: none;
+  }
+
+  .image2{
+    height: 15rem;
+  }
+
+  .textContainer1{
+    font-size: 2.5rem;
+  }
+
+  .subMapContainer{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 1.4rem;
+    box-shadow: 5px 5px 0 12px rgb(230,170,1);
+  }
+}
