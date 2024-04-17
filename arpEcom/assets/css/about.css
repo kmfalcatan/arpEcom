@@ -1,11 +1,9 @@
 .bodyContainer1{
-    outline: red dashed 1px;
     height: 92.9vh;
     background: url(../img/BG2.png) center/cover no-repeat;
 }
 
 .textContainer2{
-    outline: red dashed 1px;
     font-size: 5rem;
     display: flex;
     align-items: center;
@@ -17,7 +15,6 @@
 }
 
 .textContainer3{
-    outline: red dashed 1px;
     width: 100%;
     font-size: 1.5rem;
     display: flex;

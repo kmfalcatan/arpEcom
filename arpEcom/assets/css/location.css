@@ -1,5 +1,4 @@
 .bodyContainer3{
-  outline: red dashed 1px;
   height: 92.5vh;
   background-color: rgb(255,237,0);
   display: grid;
@@ -7,7 +6,6 @@
 }
 
 .subBodyContainer3{
-  outline: red dashed 1px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +18,6 @@
 }
 
 .subImageContainer2{
-  outline: red dashed 1px;
   height: 100%;
   width: 100%;
   display: flex;
@@ -30,7 +27,6 @@
 }
 
 .textContainer1{
-  outline: red dashed 1px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,14 +35,12 @@
 }
 
 .mapContainer{
-  outline: red dashed 1px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .subMapContainer{
-  outline: red dashed 1px;
   height: 20rem;
   width: 20rem;
   border-radius: 1rem;

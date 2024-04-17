@@ -4,12 +4,10 @@
 }
 
 .container{
-    outline: red dashed 1px;
     height: 100vh;
 }
 
 .headerContainer{
-    outline: red dashed 1px;
     height: 4rem;
     display: flex;
     align-items: center;
@@ -19,7 +17,6 @@
 }
 
 .logoContainer{
-    outline: white dashed 1px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -31,7 +28,6 @@
 }
 
 .bodyContainer{
-    outline: red dashed 1px;
     height: 92.9vh;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
@@ -39,7 +35,6 @@
 }
 
 .subBodyContainer{
-    outline: red dashed 1px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +43,6 @@
 }
 
 .textContainer{
-    outline: red dashed 1px;
     width: 100%;
     text-align: justify;
     font-size: 3.1rem;
@@ -59,7 +53,6 @@
 }
 
 .textContainer1{
-    outline: red dashed 1px;
     width: 100%;
     text-align: justify;
     font-size: 1.5rem;
@@ -73,7 +66,6 @@ p{
 }
 
 .imageContainer{
-    outline: red dashed 1px;
     display: flex;
     justify-content: center;
     align-items: center;
