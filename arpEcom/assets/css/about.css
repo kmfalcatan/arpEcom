@@ -1,0 +1,66 @@
+.bodyContainer1{
+    outline: red dashed 1px;
+    height: 92.9vh;
+    background: url(../img/BG2.png) center/cover no-repeat;
+}
+
+.textContainer2{
+    outline: red dashed 1px;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255,237,0);
+    flex-direction: column;
+}
+
+.textContainer3{
+    outline: red dashed 1px;
+    width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .textContainer2{
+        font-size: 5rem;
+    }
+
+    p{
+        margin-top: 2rem;
+    }
+
+    .text1{
+        width: 90%;
+        margin-top: 1rem;
+        font-size: 1.9rem;
+    }
+}
+
+/*pc*/
+@media only screen and (min-width: 1441px){
+    .textContainer2{
+        font-size: 7rem;
+    }
+
+    p{
+        margin-top: 2rem;
+    }
+
+    .text1{
+        width: 70%;
+        margin-top: 1rem;
+        font-size: 2.5rem;
+        margin-left: 15rem;
+    }
+
+    .text3{
+        margin-left: 15rem;
+    }
+}
