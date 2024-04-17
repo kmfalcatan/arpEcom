@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="../assets/css/userProfile.css">
+</head>
+<body>
+  <div class="container">
+    <div class="subContainer">
+      <div class="uploadContainer">
+        <div class="imageContainer">
+          <div class="subImageContainer">
+            <img class="profilePic" id="profilePic" src="" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="infoContainer">
+        <div class="subInfoContainer">
+          <div class="labelContainer">
+            <p class="label">First Name:</p>
+          </div>
+
+          <div class="inputContainer"> 
+            <div class="subInputContainer">
+              <p>Khriz marr</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="subInfoContainer">
+          <div class="labelContainer">
+            <p class="label">Last Name:</p>
+          </div>
+
+          <div class="inputContainer"> 
+            <div class="subInputContainer">
+              <p>Khriz marr</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="subInfoContainer">
+          <div class="labelContainer">
+            <p class="label">Address:</p>
+          </div>
+
+          <div class="inputContainer"> 
+            <div class="subInputContainer">
+              <p>Khriz marr</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="subInfoContainer">
+          <div class="labelContainer">
+            <p class="label">Age:</p>
+          </div>
+
+          <div class="inputContainer"> 
+            <div class="subInputContainer">
+              <p>Khriz marr</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="subInfoContainer">
+          <div class="labelContainer">
+            <p class="label">Contact:</p>
+          </div>
+
+          <div class="inputContainer"> 
+            <div class="subInputContainer">
+              <p>Khriz marr</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="subInfoContainer">
+          <div class="labelContainer">
+            <p class="label">Email Address:</p>
+          </div>
+
+          <div class="inputContainer"> 
+            <div class="subInputContainer">
+              <p>Khriz marr</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="buttonContainer">
+          <button onclick="popUpForm()" class="uploadButton">Edit</button>
+          <button class="uploadButton">Back</button>
+        </div>
+      </div>
+    </div>
+
+  <div class="container1" style="display: none;">
+    <div class="container1">
+      <div class="subContainer1">
+        <div class="uploadContainer">
+          <div class="imageContainer">
+            <div class="subImageContainer">
+              <img class="profilePic" id="profilePic" src="" alt="">
+            </div>
+          </div>
+  
+          <div class="uploadButtonContainer">
+            <!-- File input element -->
+            <input type="file" id="fileInput" accept="image/*" style="display: none;">
+            <!-- Button to trigger file input -->
+            <button class="uploadButton" onclick="document.getElementById('fileInput').click()">Upload</button>
+          </div>
+        </div>
+  
+        <div class="infoContainer">
+          <div class="subInfoContainer">
+            <div class="labelContainer">
+              <p class="label">First Name:</p>
+            </div>
+  
+            <div class="inputContainer"> 
+              <input type="text" class="subInputContainer" style="border: none; text-align: center;">
+            </div>
+          </div>
+  
+          <div class="subInfoContainer">
+            <div class="labelContainer">
+              <p class="label">Last Name:</p>
+            </div>
+  
+            <div class="inputContainer"> 
+              <input type="text" class="subInputContainer" style="border: none; text-align: center;">
+            </div>
+          </div>
+  
+          <div class="subInfoContainer">
+            <div class="labelContainer">
+              <p class="label">Address:</p>
+            </div>
+  
+            <div class="inputContainer"> 
+              <input type="text" class="subInputContainer" style="border: none; text-align: center;">
+            </div>
+          </div>
+  
+          <div class="subInfoContainer">
+            <div class="labelContainer">
+              <p class="label">Age:</p>
+            </div>
+  
+            <div class="inputContainer"> 
+              <input type="text" class="subInputContainer" style="border: none; text-align: center;">
+            </div>
+          </div>
+  
+          <div class="subInfoContainer">
+            <div class="labelContainer">
+              <p class="label">Contact:</p>
+            </div>
+  
+            <div class="inputContainer"> 
+              <input type="text" class="subInputContainer" style="border: none; text-align: center;">
+            </div>
+          </div>
+  
+          <div class="subInfoContainer">
+            <div class="labelContainer">
+              <p class="label">Email Address:</p>
+            </div>
+  
+            <div class="inputContainer"> 
+              <input type="text" class="subInputContainer" style="border: none; text-align: center;">
+            </div>
+          </div>
+  
+          <div class="buttonContainer">
+            <button class="uploadButton">Save</button>
+            <button onclick="popUpForm()" class="uploadButton">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>  
+  </div>
+
+  <script>
+    // JavaScript to update image source when file is selected
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      const reader = new FileReader();
+
+      reader.onload = function(e) {
+        document.getElementById('profilePic').src = e.target.result;
+      };
+
+      reader.readAsDataURL(file);
+    });
+  </script>
+
+  <script src="../assets/js/userProfile.js"></script>
+</body>
+</html>
